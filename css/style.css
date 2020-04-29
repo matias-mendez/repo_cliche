@@ -5,7 +5,7 @@ html{
 }
 
 body {
-	font-family: 'Verdana', monospace;
+	font-family: 'Roboto Mono', monospace;
 	color: black;
 	background-image: linear-gradient(to right, blue, deepskyblue);
 	margin: 0;
