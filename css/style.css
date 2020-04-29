@@ -1,0 +1,144 @@
+html{
+	display: flex;
+	align-items: center;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	color: black;
+	background-image: linear-gradient(to right, blue, deepskyblue);
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	z-index:10;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	font-size: 20px;
+	transition: 1s;
+	text-align: center;
+	padding: 14px 60px;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.main {
+  	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	padding-top: 100px;
+	align-content: space-between;
+	font-size: 20px;
+}
+
+.carousel-galeria {
+	margin-bottom: 70px;
+	padding-top: 100px;
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.section {
+	font-size: 20px;
+	margin-bottom: 70px;
+	padding-top: 100px;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+input[type=reset] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=reset]:hover {
+  	background-color: #45a049;
+}
+
+.main_text{
+	border: 1px transparent;
+	padding: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+#logo {
+	height: 40px;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+form {
+   padding:2px;
+   cursor:pointer;
+   display:block;
+   width:350px;
+   margin: 0 auto;
+   text-align:left;
+}
+
+.center_btn {
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+}
