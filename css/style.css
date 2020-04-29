@@ -5,7 +5,7 @@ html{
 }
 
 body {
-	font-family: 'Verdana', monospace;
+	font-family: 'Arial', monospace;
 	color: black;
 	background-image: linear-gradient(to right, blue, deepskyblue);
 	margin: 0;
@@ -15,7 +15,7 @@ body {
 
 .navbar {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #335;
 	position: fixed;
 	z-index:10;
 	top: 0;
