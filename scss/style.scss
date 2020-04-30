@@ -1,0 +1,148 @@
+$color_1: black;
+$color_2: #f2f2f2;
+$color_3: white;
+$font_family_1: 'Roboto Mono', monospace;
+$background_color_1: #333;
+$background_color_2: #4CAF50;
+$background_color_3: #45a049;
+$background_color_4: #f2f2f2;
+
+html {
+	display: flex;
+	align-items: center;
+	scroll-behavior: smooth;
+}
+body {
+	font-family: $font_family_1;
+	color: $color_1;
+	background-image: linear-gradient(to right, blue, deepskyblue);
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.navbar {
+	overflow: hidden;
+	background-color: $background_color_1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	a {
+		float: left;
+		display: block;
+		color: $color_2;
+		transition: 1s;
+		text-align: center;
+		padding: 14px 60px;
+		text-decoration: none;
+		&:hover {
+			background: #ddd;
+			color: $color_1;
+		}
+	}
+}
+.main {
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	padding-top: 100px;
+	align-content: space-between;
+	font-size: 20px;
+}
+.carousel-galeria {
+	margin-bottom: 70px;
+	padding-top: 100px;
+}
+.responsive {
+	max-width: 100%;
+	height: auto;
+}
+.section {
+	font-size: 20px;
+	margin-bottom: 70px;
+	padding-top: 100px;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+select {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+input[type=submit] {
+	background-color: $background_color_2;
+	color: $color_3;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background_color_3;
+	}
+}
+input[type=reset] {
+	background-color: $background_color_2;
+	color: $color_3;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background_color_3;
+	}
+}
+.main_text {
+	border: 1px transparent;
+	padding: 20px;
+}
+p {
+	text-align: justify;
+}
+.container {
+	border-radius: 5px;
+	background-color: $background_color_4;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+form {
+	padding: 2px;
+	cursor: pointer;
+	display: block;
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+.center_btn {
+	text-align: center;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: $background_color_1;
+	color: $color_3;
+}
