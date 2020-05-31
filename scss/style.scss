@@ -1,10 +1,15 @@
 $color_1: black;
-$color_2: #f2f2f2;
+$color_2: #6e6e6e;
 $color_3: white;
 $font_family_1: 'Roboto Mono', monospace;
-$background_color_1: #333;
+$font_family_2: arial;
+$font_family_3: 'Roboto', sans-serif;
+$background_color_1: #93dcdc;
 $background_color_2: #4CAF50;
 $background_color_3: #45a049;
+$background_color_4: #989393;
+$background_color_5: #6e6e6e;
+$background_color_6: #333;
 
 html {
 	display: flex;
@@ -19,25 +24,38 @@ body {
 	padding: 0;
 	border: 0;
 }
-.navbar {
-	overflow: hidden;
-	background-color: $background_color_1;
-	position: fixed;
-	z-index: 10;
-	top: 0;
-	width: 100%;
-	a {
-		float: left;
-		display: block;
-		color: $color_2;
-		font-size: 20px;
-		transition: 1s;
-		text-align: center;
-		padding: 14px 60px;
-		text-decoration: none;
-		&:hover {
-			background: #ddd;
-			color: $color_1;
+h2 {
+	font-family: $font_family_1;
+	text-align: center;
+	font-size: 2em;
+	color: $color_2;
+}
+h3 {
+	font-family: $font_family_2;
+	font-size: 1em;
+	color: $color_2;
+}
+nav {
+	ul {
+		li {
+			list-style: none;
+			display: inline;
+			a {
+				text-decoration: none;
+				font-family: $font_family_3;
+				list-style: none;
+				color: $color_1;
+				font-size: 20px;
+				transition: 1s;
+				text-align: center;
+				padding: 14px 60px;
+				text-decoration: none;
+				list-style: none;
+				display: inline;
+				&:hover {
+					background-color: $background_color_1;
+				}
+			}
 		}
 	}
 }
@@ -45,25 +63,21 @@ body {
 	display: block;
 	margin: auto;
 	margin-bottom: 30px;
-	padding-top: 100px;
+	padding-top: 10px;
 	align-content: space-between;
 	font-size: 20px;
 	width: 70%;
 }
 .carousel-galeria {
 	margin-bottom: 70px;
-	padding-top: 100px;
-}
-.responsive {
-	max-width: 100%;
-	height: auto;
+	padding-top: 30px;
 }
 .section {
 	display: block;
 	margin: auto;
 	font-size: 20px;
-	margin-bottom: 70px;
-	padding-top: 100px;
+	margin-bottom: 30px;
+	padding-top: 10px;
 	width: 70%;
 }
 input[type=text] {
@@ -108,19 +122,19 @@ input[type=submit] {
 	}
 }
 input[type=reset] {
-	background-color: $background_color_2;
+	background-color: $background_color_4;
 	color: $color_3;
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
 	&:hover {
-		background-color: $background_color_3;
+		background-color: $background_color_5;
 	}
 }
 .main_text {
 	border: 1px transparent;
-	padding: 20px;
+	padding: 10px;
 }
 p {
 	text-align: justify;
@@ -131,13 +145,17 @@ p {
 .container {
 	width: 60%;
 }
+.imagen_servicio {
+	margin-bottom: 70px;
+	padding-top: 30px;
+}
 form {
 	margin: 0 auto;
 	width: 400px;
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-bottom: 70px;
 	width: 100%;
 }
@@ -149,6 +167,6 @@ form {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: $background_color_1;
+	background-color: $background_color_6;
 	color: $color_3;
 }

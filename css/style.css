@@ -13,36 +13,48 @@ body {
 	border: 0;
 }
 
-.navbar {
-	overflow: hidden;
-	background-color: #333;
-	position: fixed;
-	z-index:10;
-	top: 0;
-	width: 100%;
+h2 {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size:2em; 
+	color: #6e6e6e;
 }
 
-.navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
+h3 {
+	font-family:arial;
+	font-size:1em; 
+	color: #6e6e6e;
+}	
+	
+nav ul li  {
+	list-style:none;
+	display: inline;
+
+}
+ 
+ nav ul li a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	list-style:none;
+	color: black;
 	font-size: 20px;
 	transition: 1s;
 	text-align: center;
 	padding: 14px 60px;
 	text-decoration: none;
+	list-style:none;
+ 	display:inline;
 }
-
-.navbar a:hover {
-	background: #ddd;
-	color: black;
+ 
+ nav ul li a:hover {
+	background-color:#93dcdc;
 }
 
 .main {
   	display: block;
 	margin: auto;
 	margin-bottom: 30px;
-	padding-top: 100px;
+	padding-top: 10px;
 	align-content: space-between;
 	font-size: 20px;
 	width: 70%;
@@ -50,20 +62,15 @@ body {
 
 .carousel-galeria {
 	margin-bottom: 70px;
-	padding-top: 100px;
-}
-
-.responsive {
-	max-width: 100%;
-	height: auto;
+	padding-top: 30px;
 }
 
 .section {
 	display: block;
 	margin: auto;
 	font-size: 20px;
-	margin-bottom: 70px;
-	padding-top: 100px;
+	margin-bottom: 30px;
+	padding-top: 10px;
 	width: 70%;
 }
 
@@ -92,7 +99,7 @@ input[type=submit]:hover {
 }
 
 input[type=reset] {
-	background-color: #4CAF50;
+	background-color: #989393;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -101,12 +108,12 @@ input[type=reset] {
 }
 
 input[type=reset]:hover {
-  	background-color: #45a049;
+  	background-color: #6e6e6e;
 }
 
 .main_text{
 	border: 1px transparent;
-	padding: 20px;
+	padding: 10px;
 }
 
 p {
@@ -121,13 +128,18 @@ p {
 	width: 60%;
 }
 
+.imagen_servicio {
+	margin-bottom: 70px;
+	padding-top: 30px;
+}
+
 form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 70px;
   width: 100%;
 }
